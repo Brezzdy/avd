@@ -1,17 +1,17 @@
 
 import styles from '../styles/Home.module.css';
 
-const Home: React.FC = () => {
+const Assembly: React.FC = () => {
   return (
     <div className={styles.container}>
-
+      
       <main className={styles.main}>
-        <h2>Welcome to AVD Turbo</h2>
-        <p>Your turbocharger specialists.</p>
+        <h2>Asamblare</h2>
+        <p>Montaje realizate in service-ul Avd Turbo</p>
       </main>
       
-    </div>
+      </div>
   );
 }
 
-export default Home;
+export default Assembly;

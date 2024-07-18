@@ -1,17 +1,17 @@
 
 import styles from '../styles/Home.module.css';
 
-const Home: React.FC = () => {
+const Utils: React.FC = () => {
   return (
     <div className={styles.container}>
-
-      <main className={styles.main}>
-        <h2>Welcome to AVD Turbo</h2>
-        <p>Your turbocharger specialists.</p>
-      </main>
       
+      <main className={styles.main}>
+        <h2>Utile</h2>
+        <p>Informatii utile</p>
+      </main>
+
     </div>
   );
 }
 
-export default Home;
+export default Utils;
